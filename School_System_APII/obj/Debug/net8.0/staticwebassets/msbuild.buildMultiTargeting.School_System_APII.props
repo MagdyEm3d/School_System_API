@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\School_System_APII.props" />
+</Project>

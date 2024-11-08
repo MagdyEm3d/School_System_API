@@ -1,0 +1,363 @@
+[
+  {
+    "ContainingType": "School_System_APII.Controllers.InstractorController",
+    "Method": "ChooseSubject",
+    "RelativePath": "api/Instractor/{name}/ChooseSubject",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "subjectname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.InstractorController",
+    "Method": "Delete",
+    "RelativePath": "api/Instractor/{name}/DeletedInstractor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.InstractorController",
+    "Method": "GetInstructor",
+    "RelativePath": "api/Instractor/{name}/GetInstructor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.InstractorController",
+    "Method": "UpdateInstractor",
+    "RelativePath": "api/Instractor/{name}/UpdateInstractor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "instractorUpdatedto",
+        "Type": "School_System_APII.DTO.InstractorUpdatedto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.InstractorController",
+    "Method": "GetAllInstractors",
+    "RelativePath": "api/Instractor/GetAllInstractors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.InstractorController",
+    "Method": "Login",
+    "RelativePath": "api/Instractor/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "InstractorName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.InstractorController",
+    "Method": "Registeration",
+    "RelativePath": "api/Instractor/Registeration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "InstractorName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Salary",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.StudentController",
+    "Method": "DeleteStudent",
+    "RelativePath": "api/Student/{name}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.StudentController",
+    "Method": "ChooseSubject",
+    "RelativePath": "api/Student/{name}/ChooseSubjectAndInstractor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "subjectName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "instructorName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.StudentController",
+    "Method": "GetStudent",
+    "RelativePath": "api/Student/{name}/GetOneStudent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.StudentController",
+    "Method": "UpdateStudent",
+    "RelativePath": "api/Student/{name}/UpdateStudent",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentDto",
+        "Type": "School_System_APII.DTO.StudentUpdatedto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.StudentController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/Student/GetAllStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.StudentController",
+    "Method": "Login",
+    "RelativePath": "api/Student/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.StudentController",
+    "Method": "Registeration",
+    "RelativePath": "api/Student/Registeration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.SubjectController",
+    "Method": "DeleteSubject",
+    "RelativePath": "api/Subject/{name}/DeleteSubject",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.SubjectController",
+    "Method": "GetSubject",
+    "RelativePath": "api/Subject/{name}/GetSubject",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.SubjectController",
+    "Method": "UpdateSubject",
+    "RelativePath": "api/Subject/{name}/UpdateSubject",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "subjectDto",
+        "Type": "School_System_APII.DTO.Subjectdto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.SubjectController",
+    "Method": "AddSubject",
+    "RelativePath": "api/Subject/AddSubject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SubjectName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_System_APII.Controllers.SubjectController",
+    "Method": "GetAllSubjects",
+    "RelativePath": "api/Subject/GetAllSubjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
